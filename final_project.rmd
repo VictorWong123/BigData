@@ -1,0 +1,11 @@
+Use layers (tutorial 9)
+```{r}
+
+library(tidyr)
+data = read.csv("StressLevelDataset.csv")
+data <- data%>% drop_na()
+View(data)
+
+
+```
+
